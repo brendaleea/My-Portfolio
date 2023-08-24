@@ -1,0 +1,67 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
+}
+
+.img-flower{
+  width: 150px;
+  height:auto;
+  border-radius: 50%;
+  margin: 8px;
+
+}
+
+.header{
+  vertical-align: middle;
+  background-color: aquamarine;
+
+}
+
+.nav{
+color: rgb(213, 131, 31); /* Text color not working??? */
+cursor: pointer;
+padding-top: 15px;
+margin-right: 20px;
+float: right;
+font-size: 20px;
+
+}
+
+.header nav ul{
+  list-style-type: none;
+
+}
+
+.header nav ul li{
+display: inline-block;
+margin-left: 25px;
+
+}
+
+
+.nav:hover{
+opacity: 0.4 ;
+
+}
+
+.nav:active{
+
+}
+
+.body{
+  background-color: coral;
+
+
+}
+
+
+.footer{
+background-color: darkslateblue;
+padding: 30px;
+clear: both;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-align: center;
+}
