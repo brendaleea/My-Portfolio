@@ -4,9 +4,10 @@ padding: 0;
 box-sizing: border-box;
 
 
+
 }
 
-.img-flower{
+.img-comp{
   width: 150px;
   height:auto;
   border-radius: 50%;
@@ -15,13 +16,19 @@ box-sizing: border-box;
 }
 
 .header{
-  vertical-align: middle;
-  background-color: aquamarine;
-
+  background-color: rgb(232, 192, 245);
 }
 
-.nav{
-color: rgb(213, 131, 31); /* Text color not working??? */
+h1{
+
+  margin-left: 200px;
+  
+}
+
+
+
+.header nav {
+color: rgb(183, 97, 117); /* Text color not working??? */
 cursor: pointer;
 padding-top: 15px;
 margin-right: 20px;
@@ -32,12 +39,14 @@ font-size: 20px;
 
 .header nav ul{
   list-style-type: none;
+  
 
 }
 
 .header nav ul li{
 display: inline-block;
 margin-left: 25px;
+
 
 }
 
@@ -51,17 +60,42 @@ opacity: 0.4 ;
 
 }
 
+p{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+  color: blueviolet;
+  width:auto;
+  font-family: roboto;
+  background-color: rgb(220, 124, 225);
+}
+
+
+
+
+
+
+
+
+
 .body{
-  background-color: coral;
+  background-color: rgb(227, 216, 230);
 
 
 }
 
 
 .footer{
-background-color: darkslateblue;
+background-color: rgb(232, 192, 245);
 padding: 30px;
 clear: both;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 text-align: center;
+
+
+}
+
+.span-2:hover{
+text-decoration: underline;
+cursor: pointer;
 }
