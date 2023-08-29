@@ -83,10 +83,17 @@ color: white;
 }
 */
 
-.section{
+.page-section{
 display: flex;
 align-items: center;
+margin: 20px;
 
+}
+
+.wrapper{
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .title-container{
