@@ -20,6 +20,8 @@ box-sizing: border-box;
 
   width: 30%;
   
+      box-shadow: 0px 0px 5px rgba(0, 0, 0, 10);
+  
 
 }
 
@@ -66,6 +68,7 @@ opacity: 0.4 ;
 color: white;
 }
 
+/*
 .section{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -74,17 +77,34 @@ color: white;
   margin-bottom: 25px;
   color: blueviolet;
   font-family: roboto;
+  background-color: palevioletred;
  
  
 }
+*/
 
+.section{
+display: flex;
+align-items: center;
+
+}
+
+.title-container{
+  display: flex;
+  margin-top: 25px;
+  flex: 1 0 20%;
+  flex-direction: column;
+  background-color: yellowgreen;
+}
 
 
 p{
-  
-  border-left: 5px solid #000;
-  height: 400px;
+  display:flex;
+  flex-direction: column;
+  border-left: 6px solid #000;
   text-align: center;
+  flex-wrap: wrap;
+  background-color: aqua;
   
   
 
