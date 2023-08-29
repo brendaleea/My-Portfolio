@@ -1,71 +1,48 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-
-
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.img-comp{
+.img-comp {
   width: 150px;
   border-radius: 50%;
-  margin: 8px;
+  margin: 10px;
   display: block;
   align-items: center;
-
-}
-
-.img-hori{
-
-  width: 30%;
-  
-      box-shadow: 0px 0px 5px rgba(0, 0, 0, 10);
-  
-
 }
 
 .header {
   display: flex;
-  flex:1;
+  flex: 1;
+  align-items: center;
+  height: auto;
   background-color: rgb(234, 203, 245);
-  
 }
 
-
-
-
+.header nav ul li {
+  display: flex;
+  flex: 1;
+  margin-left: 25px;
+  display: inline-block;
+  background-color: rgb(215, 203, 203);
+}
 
 .nav {
-color: rgb(246, 238, 238); /* Text color not working??? */
-cursor: pointer;
-font-size: 25px;
-display: flex;
-align-items: center;
-
+  cursor: pointer;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  background-color: blue;
+  flex-direction: row;
 }
 
-
-
-.header nav ul li
-{
-    display: flex;
-    flex: 1;
-    margin-left: 25px;
-    color: black;
-    display: inline-block;
-  
-    }
-  
-
-
-.nav:hover{
-opacity: 0.4 ;
-
+.nav:hover {
+  color: rgb(30, 0, 255);
 }
 
-.nav:active{
-color: white;
+.nav:active {
+  color: rgb(242, 56, 180);
 }
 
 /*
@@ -83,75 +60,73 @@ color: white;
 }
 */
 
-.page-section{
-display: flex;
-align-items: center;
-margin: 20px;
-
-}
-
-.wrapper{
+.wrapper {
   max-width: 90%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.title-container{
+.page-section {
   display: flex;
-  margin-top: 25px;
-  flex: 1 0 20%;
-  flex-direction: column;
-  background-color: yellowgreen;
+  align-items: center;
+  margin: 20px;
+  background-color: blueviolet;
+
+  
 }
 
+.title-container {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  height: 300px;
+  max-width: 300px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(60, 57, 237);
+}
 
-p{
-  display:flex;
-  flex-direction: column;
+p {
+  display: flex;
+  display:inline-block;
+  flex-direction: row;
   border-left: 6px solid #000;
-  text-align: center;
+  line-height: 300px;
+  align-items: center;
   flex-wrap: wrap;
   background-color: aqua;
-  
-  
-
- 
-  
+  justify-content: center;
+  text-align: center;
 }
 
+.img-hori {
+  width: 30%;
+  height: auto;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 10);
+  flex-wrap: wrap;
+  
 
+}
 
-
-
-.body{
-  background-color: rgb(227, 207, 232);
-  padding-bottom: 100px;
+.body {
+  background-color: rgb(244, 177, 35);
+  padding-bottom: 0px;
   margin: 0;
-  
-
-
-}
-
-.email,.phone,.git{
-display: inline-block;
-margin-right: 50px;
-
-
 }
 
 
-.footer{
-background-color: rgb(232, 192, 245);
-padding: 30px;
-clear: both;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-text-align: center;
-height: 200px;
 
-
+.footer {
+  background-color: rgb(232, 192, 245);
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  height: 200px;
 }
 
-.span-2:hover{
-text-decoration: underline;
-cursor: pointer;
+.span-2:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
