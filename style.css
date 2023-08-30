@@ -12,38 +12,51 @@
   align-items: center;
 }
 
-.header {
+header {
   display: flex;
-  flex: 1;
+  justify-content: space-between;
   align-items: center;
-  height: auto;
-  background-color: rgb(234, 203, 245);
+  /* flex: 1;
+  align-items: center;
+  height: auto*/
+  background-color: rgb(234, 203, 245); 
 }
 
-.header nav ul li {
-  display: flex;
-  flex: 1;
+header nav ul li {
+  font-size: 25px;
+  /* display: flex;
+  flex: 1; */
   margin-left: 25px;
-  display: inline-block;
+  /* display: inline-block; */
   background-color: rgb(215, 203, 203);
 }
 
-.nav {
+nav {
+
   cursor: pointer;
-  font-size: 25px;
-  display: flex;
-  align-items: center;
-  background-color: blue;
+  /* font-size: 25px; */
+  /* display: flex;
+  align-items: center; */
+  /* background-color: blue;
   flex-direction: row;
+  float: right; */
+}
+nav ul{
+  display: flex;
+  list-style-type: none;
+}
+nav ul li a:hover {
+  color: red;
+
+}
+nav ul li a:active {
+  color:green;
+
 }
 
-.nav:hover {
-  color: rgb(30, 0, 255);
-}
-
-.nav:active {
+/* .nav:active {
   color: rgb(242, 56, 180);
-}
+} */
 
 /*
 .section{
@@ -91,7 +104,9 @@ p {
   display:inline-block;
   flex-direction: row;
   border-left: 6px solid #000;
-  line-height: 300px;
+  height: 300px;
+  width: 700px;
+  /* line-height: 300px; */
   align-items: center;
   flex-wrap: wrap;
   background-color: aqua;
@@ -108,7 +123,7 @@ p {
 
 }
 
-.body {
+body {
   background-color: rgb(244, 177, 35);
   padding-bottom: 0px;
   margin: 0;
