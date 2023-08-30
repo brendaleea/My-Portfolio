@@ -5,35 +5,42 @@
 }
 
 .img-comp {
-  width: 150px;
+  width: 250px;
   border-radius: 50%;
   margin: 10px;
   display: block;
   align-items: center;
+  
 }
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
   align-items: center;
   /* flex: 1;
   align-items: center;
   height: auto*/
-  background-color: rgb(234, 203, 245); 
+  color: white;
+ /* background-color: rgb(5, 5, 5);   */
+ font-size: 20px;
 }
 
 header nav ul li {
-  font-size: 25px;
+  font-size: 30px;
+  
+  
+  
   /* display: flex;
   flex: 1; */
   margin-left: 25px;
   /* display: inline-block; */
-  background-color: rgb(215, 203, 203);
+  
 }
 
 nav {
 
   cursor: pointer;
+  
   /* font-size: 25px; */
   /* display: flex;
   align-items: center; */
@@ -44,13 +51,14 @@ nav {
 nav ul{
   display: flex;
   list-style-type: none;
+  
 }
 nav ul li a:hover {
-  color: red;
+  color: rgb(248, 243, 243);
 
 }
 nav ul li a:active {
-  color:green;
+  color:#000;
 
 }
 
@@ -81,9 +89,10 @@ nav ul li a:active {
 
 .page-section {
   display: flex;
+
   align-items: center;
-  margin: 20px;
-  background-color: blueviolet;
+  margin: 100px;
+  /* background-color: blueviolet;  */
 
   
 }
@@ -91,54 +100,82 @@ nav ul li a:active {
 .title-container {
   display: flex;
   flex: 1;
-  flex-direction: row;
+  /* flex-direction: row; */
   height: 300px;
   max-width: 300px;
   justify-content: center;
   align-items: center;
-  background-color: rgb(60, 57, 237);
+   /* background-color: blue;  */
+  color: white;
+  border-right: 6px solid #d3cccc;
+ 
+  
 }
+
+
+
+
+
+
 
 p {
   display: flex;
-  display:inline-block;
+  display: inline-block;
   flex-direction: row;
-  border-left: 6px solid #000;
-  height: 300px;
-  width: 700px;
-  /* line-height: 300px; */
+  /* border-left: 6px solid #d3cccc; */
+  /* height: 300px; */
+  width: 1000px;
+  font-size: 20px;
+
   align-items: center;
   flex-wrap: wrap;
-  background-color: aqua;
-  justify-content: center;
+  /* background-color: aqua; */
+  justify-content: center; 
+ 
   text-align: center;
+  color: white
 }
+
+
+
+
 
 .img-hori {
   width: 30%;
   height: auto;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 10);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 100);
   flex-wrap: wrap;
+  
   
 
 }
 
+
+
 body {
-  background-color: rgb(244, 177, 35);
+ 
   padding-bottom: 0px;
   margin: 0;
+  background-image: url(./Images/Starrynight.jpeg);
+  background-size: cover; 
+  background-repeat: no-repeat;
+  
+  
+
+
 }
 
 
 
 .footer {
-  background-color: rgb(232, 192, 245);
-  padding: 30px;
+  /* background-color: rgb(232, 192, 245); */
+  padding: 100px;
   clear: both;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   text-align: center;
   height: 200px;
+  color: white;
 }
 
 .span-2:hover {
