@@ -13,6 +13,10 @@ A deployed portfolio showcase my work to potential employers
 
 
 
+## Support
+For any questions please message via Slack
+
+
 ## Roadmap
 
 Planning on adding other projects to my portfolio as the bootcamp continues
