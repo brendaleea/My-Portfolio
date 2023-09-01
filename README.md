@@ -11,6 +11,8 @@ A deployed portfolio showcase my work to potential employers
 
 ![My-Portfolio](./Images/Screen%20Shot%202023-08-30%20at%2010.23.15%20PM.png/)
 
+Link to deployed website: https://brendaleea.github.io/My-Portfolio/
+
 
 
 ## Support
